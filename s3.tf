@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "terraformbucketsample" {
-  bucket = "my-tf-massiveprince-bucket"
+  bucket = "my-tf-massiveprince-bucket1"
   acl    = "private"
 
   tags = {
