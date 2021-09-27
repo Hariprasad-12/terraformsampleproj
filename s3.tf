@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "b" {
+resource "aws_s3_bucket" "terraformbucketsample" {
   bucket = "my-tf-massiveprince-bucket"
   acl    = "private"
 
