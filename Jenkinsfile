@@ -40,10 +40,10 @@ pipeline {
                  bat  'terraform apply --auto-approve'
              }
          }
-          stage ("terraform destroy"){
-             steps {
-                 bat  'terraform destroy --auto-approve'
-             }
-         }
+//           stage ("terraform destroy"){
+//              steps {
+//                  bat  'terraform destroy --auto-approve'
+//              }
+//          }
      }
 }
